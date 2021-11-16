@@ -1,0 +1,36 @@
+{
+  "name": "@fallen-ui/core",
+  "version": "0.0.1",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-svelte3": "^3.2.1",
+    "postcss": "^8.3.11",
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.5.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-sass": "^1.2.9",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sass": "^1.43.4",
+    "svelte": "^3.44.1"
+  },
+  "dependencies": {
+    "@papermade/core": "0.0.4"
+  }
+}
